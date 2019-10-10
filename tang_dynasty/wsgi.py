@@ -1,5 +1,5 @@
 """
-WSGI config for Tang_dynasty project.
+WSGI config for tang_dynasty project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Tang_dynasty.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tang_dynasty.settings")
 
 application = get_wsgi_application()
